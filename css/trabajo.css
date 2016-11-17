@@ -1,0 +1,417 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.item img{
+  width: 100%;
+}
+.logo img{
+  width: 20%;
+  float: left;
+  margin-top: -80px;
+}
+.contenedor .caja1{
+  background-color: #3FC6F5 ;
+  width: 70%;
+  margin-left: 15%;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contenedor .caja1 h2{
+  color:#fff;
+  font-size: 1.8em;
+  margin-left: 8%;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.contenedor .caja1 li {
+  color: #fff;
+  margin-left: 15%;
+ margin-top: 20px;
+}
+.contenedor .caja2 {
+  background-color: #FFCE55;
+  width: 70%;
+  margin-left: 15%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.contenedor .caja2 h2, h3{
+  color: #fff;
+  font-size: 1.7em;
+  margin-left: 12%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.contenedor .caja2 p{
+  color: #fff;
+  margin-left: 13%;
+   margin-top: 15px;
+}
+.contenedor .caja3 {
+  background-color:#3FC6F5 ;
+  width: 70%;
+  margin-left: 15%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.contenedor .caja3 h2, h3{
+  color: #fff;
+  font-size: 1.7em;
+  margin-left: 12%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.contenedor .caja3 p{
+  color: #fff;
+  margin-left: 13%;
+   margin-top: 15px;
+}
+.contenedor .caja4{
+  background-color: #4990E2  ;
+  width: 70%;
+  margin-left: 15%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.contenedor .caja4 h2{
+  color:#fff;
+  font-size: 1.7em;
+  margin-left: 8%;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.contenedor .caja4 p{
+  color: #fff;
+  margin-left: 10%;
+   margin-top: 15px;
+}
+.sub2 h2{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.subcursos {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  padding: 0;
+  height: 500px;
+  box-shadow: 1px 1px 1px 2px rgb(183, 202, 218)
+}
+.subcursos img{
+  width: 100%;
+  height: 300px;
+}
+.subcursos h5{
+  font-size: 1.7em;
+  margin-left: 5%;
+  font-weight: bold;
+}
+.subcursos p{
+   font-size: 1em;
+   width: 90%;
+   margin-left: 5%;
+}
+.color{
+  z-index: 1000;
+  position: absolute;
+  background-color: #FFCE55;
+  width: 35%;
+  padding: 5px;
+  margin-top: -80px;
+  margin-left: 65%;
+}
+.color h4{
+  color: #fff;
+
+}
+.intranet{
+  height: 150px;
+  background-color: #FFCE55;
+}
+.intranet h5{
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.intranet a{
+display: block;
+text-align: center;
+margin-top: 25px;
+color: #fff;
+border: 1px solid #fff;
+width: 50%;
+margin-left: 25%;
+}
+.intranet ul{
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 22%;
+}
+.intranet ul li{
+  display: inline-block;
+margin-left: 15%;
+color: #fff;
+}
+.secciones h5{
+text-align: center;
+font-size: 1em;
+font-weight: bold;
+color: #3b4b9e;
+}
+.seccion{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.seccimg img{
+  width: 60%;
+  margin-left: 20%;
+}
+.seccletra{
+  width: 50%;
+
+}
+.seccletra h2{
+  margin-top:0px;
+  font-size: 1em;
+  margin-left: -10%;
+  color: #3b4b9e;
+}
+.seccletra p{
+  font-size: .8em;
+  margin-left: -2%;
+
+}
+.nivel1{
+  background-color: #60819c;
+  height: 580px;
+}
+.nivel1 .fa{
+  color: #fff;
+}
+.nivel1 .uno {
+  margin-top: 40px;
+  align-items: center;
+  text-align:center;
+}
+.nivel1 .uno p {
+ color: #fff;
+ font-weight: 500;
+ margin-bottom: 20px;
+}
+.nivel1 .dos{
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nivel1 .dos li{
+line-height: 30px;
+color: #fff;
+
+}
+.nivel1 .tres {
+  margin-top: 30px;
+}
+.nivel1 .tres li{
+line-height: 30px;
+color: #fff;
+text-align: center;
+list-style:none;
+}
+.nivel2{
+  background-color: #213070;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+.nivel2 .fa{
+  color: #fff;
+  margin-left:2%;
+  margin-right: 2%;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+@media(min-width:480px){
+ .sub1{
+   width: 80%;
+   margin-left: 15%;
+ }
+ .contenedor .caja1{
+   width: 38%;
+   height: 760px;
+   margin: 0;
+   margin-top: 9px;
+ }
+ .contenedor .caja1 h2{
+   font-size: 2em;
+   padding-top: 40px;
+   margin-left: 10%;
+ }
+ .contenedor .caja1 li{
+   font-size: 1.4em;
+ }
+ .recaja{
+   display: inline-block;
+   width: 60%;
+   margin-left: 2%;
+   margin-top: 10px;
+ }
+ .contenedor .caja2 {
+   width: 47%;
+   margin: 0;
+   height: 285px;
+ }
+ .contenedor .caja2 h2 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja2 h3 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja2 p {
+  font-size: 1.2em;
+  margin: 0;
+ }
+ .contenedor .caja3 {
+ width: 47%;
+ margin-left: 4%;
+ height: 285px;
+ }
+ .contenedor .caja3 h2 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja3 h3 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja3 p {
+  font-size: 1.2em;
+  margin: 0;
+ }
+ .contenedor .caja4 {
+  margin: 0;
+  margin-left: 2%;
+   width: 59%;
+   height:455px;
+ }
+ .contenedor .caja4 h2 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja4 h3 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .contenedor .caja4 p {
+  font-size: 1.2em;
+  margin: 0;
+ }
+ .sub2{
+   width: 80%;
+   margin-left: 16%;
+   margin-bottom: 60px;
+ }
+ .sub2 h2{
+   font-size: 3em;
+   padding-top: 20px;
+   padding-bottom: 30px;
+ }
+ .subcursos {
+   width: 30%;
+   margin: 0;
+   margin-right: 3.2%;
+ }
+ .intranet {
+  height: 400px;
+ }
+ .intranet h5{
+font-size: 2em;
+padding-top: 30px;
+ }
+ .intranet a{
+   padding: 5px;
+   width: 20%;
+   margin-left: 40%;
+   margin-top: 120px;
+ }
+ .intranet ul  {
+   margin-left: 24%;
+   margin-top: 50px;
+ }
+ .intranet li{
+   font-size: 2em;
+   margin-right: 4%;
+ }
+ .secciones h5{
+   font-size: 2em;
+   margin-top: 20px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+ .seccimg img{
+   width: 90%;
+   height: 250px;
+ }
+ .seccletra h2{
+    font-size: 1.7em;
+    margin-left: 9%;
+ }
+ .seccletra p{
+   font-size: 1.3em;
+   margin-left: 10%;
+ }
+  footer{
+    margin-top: 40px;
+ }
+ .nivel1 {
+   height: 450px;
+ }
+ .nivel1 .uno{
+    margin-top: 120px;
+ }
+ .nivel1 .uno p{
+    margin-bottom:80px;
+    font-size: 1.7em;
+ }
+ .nivel1 .dos li{
+   font-size: 1.8em;
+   margin-top: 40px;
+ }
+ .nivel1 .tres li{
+   font-size: 1.8em;
+   margin-top: 40px;
+ }
+ .nivel2 {
+   height: 250px;
+ }
+}
